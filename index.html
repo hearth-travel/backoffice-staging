@@ -48,10 +48,9 @@
 </div>
 
 
-
-<!-- Gmaps -->
-<script src="https://maps.googleapis.com/maps/api/js?key=$GOOGLE_API"></script>
-
+<!-- MapBox -->
+<script src='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js'></script>
+<link href='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css' rel='stylesheet'/>
 
  <!--Flutter WebGL 2.0 fix (https://github.com/flutter/flutter/issues/89655)-->
 <script type="text/javascript">
@@ -66,7 +65,7 @@
      application. For more information, see:
      https://developers.google.com/web/fundamentals/primers/service-workers-->
 <script>
-    var serviceWorkerVersion = '1611813223';
+    var serviceWorkerVersion = '1087454227';
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
@@ -129,31 +128,5 @@
       loadMainDartJs();
     }
 </script>
-
-<!-- Firebase -->
-<script type="module">
-  // Import the functions you need from the SDKs you need
-  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-app.js";
-  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-analytics.js";
-  // TODO: Add SDKs for Firebase products that you want to use
-  // https://firebase.google.com/docs/web/setup#available-libraries
-
-  // Your web app's Firebase configuration
-  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-  const firebaseConfig = {
-    apiKey: "AIzaSyBuvtseqKk6H6_9SDrEGpdwT8-N_5QY2ik",
-    authDomain: "hearth-148b0.firebaseapp.com",
-    projectId: "hearth-148b0",
-    storageBucket: "hearth-148b0.appspot.com",
-    messagingSenderId: "633100031441",
-    appId: "1:633100031441:web:089029ded93387a8b23cf0",
-    measurementId: "G-MWNJ2Z6HEZ"
-  };
-
-  // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
-  const analytics = getAnalytics(app);
-</script>
-
 </body>
 </html>
