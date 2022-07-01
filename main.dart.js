@@ -93852,7 +93852,7 @@ p.ag(0,new A.aK4(q))
 return A.t(null,r)}})
 return A.u($async$Bn,r)},
 agG(){var s,r,q,p=this,o=null,n=t.p,m=A.aJ(A.a([A.bQ("Aggiungi un luogo di interesse per iniziare a mettere in luce il Patrimonio Invisibile di "+A.b($.bS.c.b,"city")+".",o,$.hy(),o),new A.eI(B.jZ,o,o,A.bQ("Usa il pulsante di fianco per iniziare \u279d",o,$.fo(),o),o)],n),B.r,B.as,B.n)
-if(J.b3(p.ch)===1)m=A.aJ(A.a([A.bk(A.a([A.bQ("Complimenti! ",o,$.adr(),o),A.jL("assets/icons/party_icon.svg",B.H,o,27,o,o)],n),B.t,B.k,B.n,o),A.bQ("Hai creato il tuo primo luogo di interesse ad "+A.b($.bS.c.b,"city")+". Aggiungine un altro o migliora quello che hai appena creato.",o,$.hy(),o),new A.eI(B.jZ,o,o,A.bQ("Puoi aprire l\u2019anteprima dei tuoi luoghi cliccando sulla card \u279d",o,$.fo(),o),o)],n),B.r,B.as,B.n)
+if(J.b3(p.ch)===1)m=A.aJ(A.a([A.bk(A.a([A.bQ("Complimenti! ",o,$.adr(),o),A.jL("assets/icons/party_icon.svg",B.H,o,27,o,o)],n),B.t,B.k,B.n,o),A.bQ("Hai creato il tuo primo luogo di interesse a "+A.b($.bS.c.b,"city")+". Aggiungine un altro o migliora quello che hai appena creato.",o,$.hy(),o),new A.eI(B.jZ,o,o,A.bQ("Puoi aprire l\u2019anteprima dei tuoi luoghi cliccando sulla card \u279d",o,$.fo(),o),o)],n),B.r,B.as,B.n)
 if(J.b3(p.ch)>1){s=p.Q
 s=s==null?o:J.kT(s.b)
 if(s===!0){s=A.dM(A.aJ(A.a([new A.eL(1,B.aW,A.bQ("Sappiamo che nel tuo territorio esiste questo luogo d\u2019interesse, vuoi raccontarcelo con la tua voce?",o,$.hy(),o),o),A.bQ("Premi la X per vedere altri luoghi",o,$.fo(),o)],n),B.r,B.as,B.n),1)
@@ -94762,7 +94762,7 @@ else{s.y=r
 A.b(s.a.e,"poiData").a=r}},
 $S:0}
 A.R8.prototype={
-I(a,b){var s=null,r=this.d===!1?0.5:1,q=A.ea(new A.bh(25,25)),p=A.QQ(B.e9,1),o=this.c
+I(a,b){var s=null,r=this.d===!1?0.3:1,q=A.ea(new A.bh(25,25)),p=A.QQ(B.e9,1),o=this.c
 return A.mL(!1,A.ad(s,A.bk(A.a([A.dM(A.am(A.b(o.c,"name"),s,s,s,$.xi(),s,s),1),A.bJ(20),A.dM(A.am(A.b(o.d,"description"),s,s,s,$.PR().cq(B.M),s,s),2)],t.p),B.r,B.k,B.n,s),s,s,new A.bG(s,s,p,q,s,s,B.I),s,s,new A.a7(10,10,10,10),new A.a7(20,20,20,20),1/0),r)}}
 A.xX.prototype={
 a5(){return new A.a53(new A.Wj(),B.j)},
@@ -94869,7 +94869,7 @@ a5(){return new A.a7v(B.j)}}
 A.a7v.prototype={
 I(a,b){var s=A.b(A.k(this).i("by.T?").a(A.b(this.a.e,"poiData")).a,"description")
 if(s==null)s=""
-return A.aJ(A.a([new A.ma("Descrivi questo luogo a una persona che non lo conosce, citandone gli aspetti pi\xf9 importanti.",null),new A.qn("Esempio: La fontana di Bellerofonte \xe8 situata nel centro storico di Avellino. Inizialmente era utilizzata come semplice abbeveratoio e fu in seguito abbellita dallo scultore bergamasco Cosimo Fanzago. Il nome della fontana \xe8 dato dalla presenza, in alto al centro, di una scultura raffigurante Bellerofonte che uccide la Chimera. L\u2019acqua potabile che sgorga dalle sue bocche viene direttamente dal vicino Monte Partenio.",s,420,new A.aO8(this),null)],t.p),B.r,B.bb,B.n)}}
+return A.aJ(A.a([new A.ma("Descrivi questo luogo come se dovessi raccontarlo ad una persona che non lo conosce, citando solo gli aspetti pi\xf9 importanti.",null),new A.qn("Esempio: La fontana di Bellerofonte \xe8 situata nel centro storico di Avellino. Inizialmente era utilizzata come semplice abbeveratoio e fu in seguito abbellita dallo scultore bergamasco Cosimo Fanzago. Il nome della fontana \xe8 dato dalla presenza, in alto al centro, di una scultura raffigurante Bellerofonte che uccide la Chimera. L\u2019acqua potabile che sgorga dalle sue bocche viene direttamente dal vicino Monte Partenio.",s,420,new A.aO8(this),null)],t.p),B.r,B.bb,B.n)}}
 A.aO8.prototype={
 $1(a){var s=this.a
 return A.k(s).i("by.T?").a(A.b(s.a.e,"poiData")).a=a},
@@ -95295,7 +95295,7 @@ r.d.d=q
 A.b(r.e,"poiData").a=s.y}break}},
 $S:0}
 A.a_d.prototype={
-I(a,b){var s=null,r=!this.d?0.3:1,q=this.e===!1?0.5:r,p=A.ea(new A.bh(25,25)),o=A.QQ(B.e9,1),n=this.c
+I(a,b){var s=null,r=!this.d?0.2:1,q=this.e===!1?0.3:r,p=A.ea(new A.bh(25,25)),o=A.QQ(B.e9,1),n=this.c
 return A.mL(!1,A.ad(s,A.ch(A.bk(A.a([A.jL("assets/cat_img/cat_"+A.e(A.b(n.a,"idDb"))+".svg",B.H,s,40,s,40),A.dM(A.ch(A.am(A.b(n.c,"name"),s,s,s,$.adr(),s,s),s,s),1)],t.p),B.t,B.k,B.n,s),s,s),s,s,new A.bG(s,s,o,p,s,s,B.I),s,s,new A.a7(10,10,10,10),new A.a7(20,20,20,20),1/0),q)}}
 A.kq.prototype={
 a5(){return new A.a8L(B.j)},
@@ -95341,12 +95341,12 @@ r.x=B.ds}},
 ub(a){var s,r,q,p,o,n=this,m=null,l="Quali foto caricare",k="Puoi caricare foto orizzontali o verticali, basta che siano tue, di buona qualit\xe0 e che non siano coperte da copyright.\nLe foto non devono essere state modificate con testo, grafiche, loghi e niente collage.\n\nNon dovr\xe0 comparire nemmeno la firma dell\u2019autore: ogni contenuto su Hearth ne riporter\xe0 gi\xe0 il nome (o quello di chi ha caricato il contenuto) riconoscendone cos\xec il merito.",j="Perch\xe9 scegliere una categoria?",i="Scegliere una categoria ci permetter\xe0 di indicizzare al meglio il contenuto, che potr\xe0 essere utilizzato dal database di Hearth per dare consigli all\u2019utente finale.\r\nNel caso non trovassi una categoria adatta al tuo luogo, puoi cliccare su \u201cAltro\u201d."
 switch(a.a){case 0:s=n.cx
 s.toString
-r=new A.zf(A.kW("Nel caso di un\u2019area estesa, come spiaggie, oasi naturali, castelli o edifici, suggerisci il punto privolegiato da cui accedere per la visita. Nel caso di un singolo elemento, indicane la posizione precisa.","Indica il punto migliore per l\u2019accesso.",!1,!1,"Dove si trova\r\nquesto luogo?"),s,m)
+r=new A.zf(A.kW("Nel caso di un\u2019area estesa, come spiaggie, oasi naturali, castelli o edifici, suggerisci il punto privolegiato da cui accedere per la visita. Nel caso di un singolo elemento, indicane la posizione precisa.","Indica il punto migliore per l\u2019accesso.",!1,!1,"Dove si trova il luogo\r\nche vuoi raccontare?"),s,m)
 r.e=new A.ID(s.dy,s.fr)
 return r
 case 1:s=n.cx
 s.toString
-r=new A.xX(A.kW(k,l,!1,!0,"Adesso carica la foto pi\xf9 bella di questo luogo."),s,m)
+r=new A.xX(A.kW(k,l,!1,!0,"Adesso carica la foto pi\xf9 bella del luogo."),s,m)
 r.e=new A.zL(s.fx)
 return r
 case 2:s=n.cx
@@ -95381,19 +95381,19 @@ r.e=new A.Iz(A.b(s,"poi").db)
 return r
 case 8:s=n.cx
 s.toString
-r=new A.A2(A.kW("Esistono tanti motivi per visitare un luogo. Pu\xf2 essere il monumento principale o il simbolo della citt\xe0, oppure una spiaggia in cui godere di un tramonto mozzafiato (in quel caso, suggerisci di andarci nel tardo pomeriggio!). Pu\xf2 essere un luogo interessante, circondato da bar e ristoranti ancora pi\xf9 interessanti per fare un aperitivo, o pu\xf2 essere il tuo posto preferito, dove magari vai a goderti il panorama dopo una giornata stressante. \nCi\xf2 che rende questo luogo speciale per te, lo render\xe0 speciale anche agli occhi degli altri! ","Come raccontare le tue motivazioni.",!1,!1,"Perch\xe9 questo luogo merita di essere visitato?"),s,m)
+r=new A.A2(A.kW("Esistono tanti motivi per visitare un luogo. Pu\xf2 essere il monumento principale o il simbolo della citt\xe0, oppure una spiaggia in cui godere di un tramonto mozzafiato (in quel caso, suggerisci di andarci nel tardo pomeriggio!). Pu\xf2 essere un luogo interessante, circondato da bar e ristoranti ancora pi\xf9 interessanti per fare un aperitivo, o pu\xf2 essere il tuo posto preferito, dove magari vai a goderti il panorama dopo una giornata stressante. \nCi\xf2 che rende questo luogo speciale per te, lo render\xe0 speciale anche agli occhi degli altri! ","Come raccontare le tue motivazioni.",!1,!1,"Racconta i motivi per cui, secondo te, questo luogo merita di essere visitato."),s,m)
 r.e=new A.IF(s.dx)
 return r
 case 9:s=n.cx
 s.toString
-r=new A.zD(A.kW(i,j,!1,!0,"Ultimo step:\r\na quale macro categoria appartiene?"),s,m)
+r=new A.zD(A.kW(i,j,!1,!0,"Ultimo step:\r\na quale categoria appartiene?"),s,m)
 q=s.e
 if(q!=null&&A.b(q.a,"idDb")!==34){p=A.b(s.e.b,"categoryCode").split(".")
 s.d=$.afE.h(0,A.e(p[0])+"."+A.e(p[1])+".00")}r.e=new A.r1(s.d)
 return r
 case 10:s=n.cx
 s.toString
-r=new A.xE(A.kW(i,j,!1,!0,"Ultimo step:\r\na quale sotto categoria appartiene?"),s,m)
+r=new A.xE(A.kW(i,j,!1,!0,"Qual \xe8 la sottocategoria che lo indica meglio?"),s,m)
 q=s.e
 if(q!=null&&s.d!=null){q.toString
 o=s.d
@@ -96113,7 +96113,7 @@ A.a9I.prototype={
 aA(){A.oa(B.G,new A.aSs(this),t.P)
 this.vx()},
 I(a,b){var s=this,r=null,q=s.atZ()
-return A.a3v(A.a2i(A.ad(r,A.aJ(A.a([B.fq,s.agU(),B.fq,s.agl(),B.fq,s.agA(),B.fq,s.agq(),B.fq,A.am("Version: 0.20220624.0+0",r,r,r,r,r,r)],t.p),B.r,B.k,B.E),r,r,r,r,r,new A.a7(100,20,100,50),r,420),q),!0)},
+return A.a3v(A.a2i(A.ad(r,A.aJ(A.a([B.fq,s.agU(),B.fq,s.agl(),B.fq,s.agA(),B.fq,s.agq(),B.fq,A.am("Version: 0.20220701.0+0",r,r,r,r,r,r)],t.p),B.r,B.k,B.E),r,r,r,r,r,new A.a7(100,20,100,50),r,420),q),!0)},
 atZ(){var s=null,r=A.a([new A.dt("Dashboard",s,new A.aSl(),!1)],t.mi),q=A.b(this.d,"user")
 if(B.c.u(A.a([18,5,47],t.t),A.b(q.a,"dbId")))r.push(new A.dt("In pubblicazione",s,new A.aSm(),!1))
 r.push(new A.dt("Vedi tutti i luoghi",s,new A.aSn(),!1))
@@ -96473,7 +96473,7 @@ $S:0}
 A.dt.prototype={}
 A.v2.prototype={
 a5(){var s=t.N
-return new A.a7X(A.a([A.d(["title","Benvenuto su Hearth!","message","Questa \xe8 la nostra dashboard, dove potrai mettere in luce e valorizzare i Patrimoni del tuo territorio.","footer","Se vivi in un luogo troppo bello per restare sconosciuto, sei nel posto giusto!","image","assets/img/onboarding/onboarding1.png"],s,s),A.d(["title","Con Hearth scrivi il futuro del tuo territorio","message","Saranno i tuoi racconti, vissuti e autentici, a far scoprire e amare a tanti altri utenti il tuo territorio e i tuoi luoghi preferiti.","footer","Scrivi una nuova pagina nella storia dei luoghi che ami!","image","assets/img/onboarding/onboarding2.png"],s,s),A.d(["title","Ogni racconto porta la tua firma","message","Che tu sia una guida turistica, un\u2019azienda o un privato, ci\xf2 che caricherai racconter\xe0 molto di te, delle tue competenze, del tuo impegno e, se lo vorrai, della tua professione.","footer","Ogni contenuto caricato su Hearth riporta il profilo del promotore che lo ha creato.","image","assets/img/onboarding/onboarding3.png"],s,s),A.d(["title","Dai al tuo territorio la visibilit\xe0 che merita","message","Ogni contenuto caricato su Hearth appare direttamente sui motori di ricerca e sul web, diventando cos\xec accessibile a utenti e visitatori.","footer","Una migliore indicizzazione e presenza sul web sono il primo passo per promuovere i patrimoni pi\xf9 nascosti.","image","assets/img/onboarding/onboarding4.png"],s,s),A.d(["title","Unisciti alla Community di Hearth","message","In questo modo potrai:<br/><br/>\u2022 <b>Partecipare a eventi</b> riservati ai promotori<br/>\u2022 <b>Raccontarci le esigenze del tuo territorio</b> e avere un impatto nel suo sviluppo<br/>\u2022 <b>Essere coinvolto in progetti esclusivi</b> per la promozione del tuo territorio.","image","assets/img/onboarding/onboarding5.png","btnUrl","https://facebook.com/HearthSrl"],s,s)],t.SN),B.j)}}
+return new A.a7X(A.a([A.d(["title","Benvenuto su Hearth!","message","Questa \xe8 la nostra dashboard, dove potrai mettere in luce e valorizzare i Patrimoni del tuo territorio.","footer","Se vivi in un luogo troppo bello per restare sconosciuto, sei nel posto giusto!","image","assets/img/onboarding/onboarding1.png"],s,s),A.d(["title","Con Hearth scrivi il futuro del tuo territorio","message","Saranno i tuoi racconti, vissuti e autentici, a far scoprire e amare a tanti altri utenti il tuo territorio e i tuoi luoghi preferiti.","footer","Scrivi una nuova pagina nella storia dei luoghi che ami!","image","assets/img/onboarding/onboarding2.png"],s,s),A.d(["title","Ogni racconto porta la tua firma","message","Che tu sia una guida turistica, un\u2019azienda o un privato, ci\xf2 che caricherai racconter\xe0 molto di te, delle tue competenze, del tuo impegno e, se lo vorrai, della tua professione.","footer","Ogni contenuto caricato su Hearth riporta il profilo del promotore che lo ha creato.","image","assets/img/onboarding/onboarding3.png"],s,s),A.d(["title","Dai al tuo territorio la visibilit\xe0 che merita","message","Ogni contenuto caricato su Hearth appare direttamente sui motori di ricerca e sul web, diventando cos\xec accessibile a utenti e visitatori.","footer","Una migliore indicizzazione e presenza sul web sono il primo passo per promuovere i patrimoni pi\xf9 nascosti.","image","assets/img/onboarding/onboarding4.png"],s,s),A.d(["title","Unisciti alla Community di Hearth","message","In questo modo potrai:<br/><br/>\u2022 <b>Partecipare a eventi</b> riservati ai promotori<br/>\u2022 <b>Raccontarci le esigenze del tuo territorio</b> e avere un impatto nel suo sviluppo<br/>\u2022 <b>Essere coinvolto in progetti esclusivi</b> per la promozione del tuo territorio.","image","assets/img/onboarding/onboarding5.png","btnUrl","https://www.facebook.com/groups/1078952336038311"],s,s)],t.SN),B.j)}}
 A.a7X.prototype={
 I(a,b){var s,r,q,p,o,n,m,l,k,j=this,i=null,h=4278281954,g=j.d,f=g[j.e].h(0,"title"),e=g[j.e].h(0,"message"),d=g[j.e].h(0,"footer"),c=g[j.e].h(0,"image")
 g=j.e
@@ -96945,7 +96945,7 @@ A.a3u.prototype={
 I(a,b){var s,r,q=null
 if(this.e){s=b.a1(t.m).f
 r=new A.HO(A.aJ(A.a([new A.dA(new A.aE(0,1/0,s.a.b,1/0),new A.aY(new A.a7(75,0,75,0),this.c,q),q)],t.p),B.r,B.as,B.n),q)}else r=new A.za(new A.aFq(this),q)
-return A.b_k(A.d4(B.an,A.a([A.ad(q,r,q,q,q,q,q,q,q,b.a1(t.m).f.a.a),A.hm(0,A.bQ("0.20220624.0+0",q,$.fo().cq(B.bv),q),q,q,q,0,q,q)],t.p),B.D,B.a4,q,q),!1)}}
+return A.b_k(A.d4(B.an,A.a([A.ad(q,r,q,q,q,q,q,q,q,b.a1(t.m).f.a.a),A.hm(0,A.bQ("0.20220701.0+0",q,$.fo().cq(B.bv),q),q,q,q,0,q,q)],t.p),B.D,B.a4,q,q),!1)}}
 A.aFq.prototype={
 $2(a,b){return new A.dA(new A.aE(0,1/0,b.d,1/0),new A.aY(new A.a7(75,0,75,0),this.a.c,null),null)},
 $S:620}
